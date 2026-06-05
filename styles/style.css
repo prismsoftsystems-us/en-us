@@ -14,6 +14,11 @@
     .card {
         background-color: #111318;
     }
+
+    footer {
+        background-color: #111318;
+        border-top: 1px solid #1A1D26;
+    }
 }
 @media (prefers-color-scheme: light) {
     body {
@@ -28,6 +33,11 @@
     .card {
         background-color: #fff;
     }
+
+    footer {
+        background-color: white;
+        border-top: 1px solid #ddd;
+    }
 }
 
 html {
@@ -37,6 +47,14 @@ html {
 .card .bigtext {
     font-size: 25px;
     font-weight: bold;
+}
+
+footer {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 * {
